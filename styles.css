@@ -1,0 +1,163 @@
+/* Estilos generales */
+body {
+    background-color: rgb(220, 204, 185);
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to right, rgba(0,0,200,0.7), rgba(0, 5, 255, 0.5)); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+a.titular {
+    color: aliceblue;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+ul.listas {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+ul.listas li {
+    padding: 5px;
+    margin: 20px;
+}
+
+.menu {
+    color: aliceblue;
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.menu:hover {
+    color: rgb(96, 59, 139);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Estilos del main */
+main {
+    margin-top: 100px;
+    padding: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.producto {
+    text-align: left;
+    border-radius: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: justify;
+    color: #555;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 200px;
+    display: block;
+    margin: 0 auto 20px auto; /* Centra la imagen y añade margen inferior */
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto; /* Centra el botón horizontalmente */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/* Estilos para la página de inicio de sesión */
+
+.inicio-sesion {
+    margin-top: 100px;
+    padding: 20px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.inicio-sesion h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.inicio-sesion input[type="text"],
+.inicio-sesion input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Para incluir el padding en el ancho */
+}
+
+.inicio-sesion button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.inicio-sesion button:hover {
+    background-color: #0056b3;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#cantidadMostrada {
+    display: inline-block;
+    margin-left: 10px;
+}

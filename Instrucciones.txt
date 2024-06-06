@@ -1,0 +1,9 @@
+El archivo debera ser un excel osea un .xlsx .
+Este archivo se llamara obligatoriamente "Productos.xlsx"
+Este debe tener 4 columnas de manera obligatoria.
+Estas indican lo siguiente:
+
+- Nombre del Producto
+- Precio
+- URL de la imagen (osea una imagen sacada de internet)
+- Descripcion del Producto
